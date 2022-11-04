@@ -1,0 +1,12 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
+  <action id="EditorDuplicate" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="Macro.debug">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="SendEOF" />
+  <action id="XDebugger.CopyWatch" />
+</keymap>

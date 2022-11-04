@@ -1,0 +1,26 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="preserveCase" value="true" />
+    <option name="PRESERVE_CASE_REPLACE" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <mask>*.xml</mask>
+    <mask>*.css</mask>
+    <mask>*.shtml</mask>
+    <mask>*.shtm</mask>
+    <mask>*.ng</mask>
+    <mask>*.htm</mask>
+    <mask>*.sht</mask>
+    <mask>*.html</mask>
+    <mask>*.mts</mask>
+    <mask>*.cts</mask>
+    <mask>*.ats</mask>
+    <mask>*.cjs</mask>
+    <mask>*.js</mask>
+    <mask>tsconfig.json</mask>
+    <mask>*.json</mask>
+    <mask>*.d.ts</mask>
+    <mask>*.ts</mask>
+  </component>
+</application>

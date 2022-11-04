@@ -1,0 +1,10 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="debug">
+      <action id="InsertLiveTemplate" />
+      <typing text-keycode="68:0;69:0;66:0;85:0;71:0">debug</typing>
+      <action id="EditorChooseLookupItem" />
+      <action id="ToggleBookmark" />
+    </macro>
+  </component>
+</application>

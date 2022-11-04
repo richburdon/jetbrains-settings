@@ -1,0 +1,18 @@
+<templateSet group="JavaScript">
+  <template name="cons" value="// prettier-ignore&#10;constructor(&#10;  $SELECTION$&#10;) {}&#10;" description="Class constructor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="import" value="import {$ITEM$} from &quot;$MODULE$&quot;;$END$" description="Import statement - import {b} from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="promise" value="new Promise((resolve, reject) =&gt; {});" description="Promise" toReformat="true" toShortenFQNames="true" />
+</templateSet>

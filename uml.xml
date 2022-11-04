@@ -1,0 +1,10 @@
+<application>
+  <component name="UmlConfiguration">
+    <option name="animationsEnabled" value="false" />
+    <option name="defaultLayout" value="CHANNEL" />
+    <option name="defaultScope" value="Project Files" />
+    <option name="layout" value="CHANNEL" />
+    <option name="myDoShowGridByDefault" value="false" />
+    <option name="myIsAnimationsEnabled" value="false" />
+  </component>
+</application>
