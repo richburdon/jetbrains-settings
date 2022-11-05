@@ -6,5 +6,17 @@
       <action id="EditorChooseLookupItem" />
       <action id="ToggleBookmark" />
     </macro>
+    <macro name="extract-import">
+      <action id="EditorCut" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <action id="EditorLineEnd" />
+      <action id="EditorEnter" />
+      <typing text-keycode="73:0;77:0;80:0;79:0;82:0;84:0;32:0;91:1;32:0">import&amp;#x20;{&amp;#x20;</typing>
+      <action id="EditorPaste" />
+      <typing text-keycode="32:0;93:1;32:0;70:0;82:0;79:0;77:0;32:0;222:0;222:0;59:0">&amp;#x20;}&amp;#x20;from&amp;#x20;'';</typing>
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+    </macro>
   </component>
 </application>
