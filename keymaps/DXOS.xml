@@ -1,22 +1,23 @@
 <keymap version="1" name="DXOS" parent="Mac OS X 10.5+">
-  <action id="Documentation.EditSource">
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
-  <action id="DomCollectionControl.Edit">
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
-  <action id="DomElementsTreeView.GotoDomElementDeclarationAction">
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
-  <action id="EditSource">
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
+  <action id="ChangesView.ShelveSilently" />
+  <action id="CollapseAllRegions" />
+  <action id="CollapseBlock" />
+  <action id="CollapseRegion" />
+  <action id="CollapseSelection" />
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="Documentation.EditSource" />
+  <action id="DomCollectionControl.Edit" />
+  <action id="DomElementsTreeView.GotoDomElementDeclarationAction" />
+  <action id="EditSource" />
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
+  <action id="EditorDuplicate" />
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="meta right" />
     <keyboard-shortcut first-keystroke="ctrl e" />
@@ -25,12 +26,8 @@
     <keyboard-shortcut first-keystroke="meta left" />
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
-  <action id="EditorMoveToPageBottom">
-    <keyboard-shortcut first-keystroke="end" />
-  </action>
-  <action id="EditorMoveToPageTop">
-    <keyboard-shortcut first-keystroke="home" />
-  </action>
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageTop" />
   <action id="EditorScrollBottom">
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
@@ -38,44 +35,58 @@
   <action id="EditorScrollTop">
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
-  <action id="ExpandAllRegions">
-    <keyboard-shortcut first-keystroke="shift meta add" />
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="meta end" />
+    <keyboard-shortcut first-keystroke="end" />
   </action>
-  <action id="ExternalSystem.OpenConfig">
-    <keyboard-shortcut first-keystroke="f4" />
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta home" />
+    <keyboard-shortcut first-keystroke="home" />
   </action>
+  <action id="ExpandAllRegions" />
+  <action id="ExpandRegion" />
+  <action id="ExternalSystem.OpenConfig" />
+  <action id="FileChooser.GotoDesktop" />
   <action id="FileChooserList.LevelUp" />
+  <action id="MethodHierarchy" />
+  <action id="MethodHierarchy.BaseOnThisMethod" />
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="shift meta 0" />
+  </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift meta equals" />
   </action>
-  <action id="NavBar-navigate">
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
+  <action id="NavBar-navigate" />
   <action id="NavBar-selectHome">
     <keyboard-shortcut first-keystroke="meta left" />
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
-  <action id="ProjectViewEditSource">
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
-  <action id="RemoteHostView.EditSource">
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
+  <action id="ProjectViewEditSource" />
+  <action id="RemoteHostView.EditSource" />
+  <action id="RunDashboard.CopyConfiguration" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="SendEOF" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
-  <action id="Vcs.EditSource">
-    <keyboard-shortcut first-keystroke="f4" />
+  <action id="Uml.ShowDiff" />
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="shift meta minus" />
   </action>
-  <action id="XDebugger.JumpToSource">
-    <keyboard-shortcut first-keystroke="f4" />
+  <action id="Vcs.EditSource" />
+  <action id="Vcs.ShowHistoryForBlock">
+    <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
+  <action id="XDebugger.CopyWatch" />
+  <action id="XDebugger.JumpToSource" />
 </keymap>
