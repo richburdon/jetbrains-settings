@@ -79,6 +79,9 @@
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
+  <action id="TypeScript.Restart.Service">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="Uml.ShowDiff" />
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="shift meta minus" />
@@ -87,6 +90,7 @@
   <action id="Vcs.ShowHistoryForBlock">
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
+  <action id="Vcs.UpdateProject" />
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.JumpToSource" />
 </keymap>
