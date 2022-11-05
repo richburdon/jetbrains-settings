@@ -12,5 +12,9 @@
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
+  <action id="TypeScript.Restart.Service">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="Vcs.UpdateProject" />
   <action id="XDebugger.CopyWatch" />
 </keymap>
