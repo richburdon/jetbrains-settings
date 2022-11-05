@@ -35,6 +35,12 @@
   <action id="EditorScrollTop">
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
+  <action id="EditorSearchSession.NextOccurrenceAction">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorSearchSession.PrevOccurrence">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta end" />
     <keyboard-shortcut first-keystroke="end" />
