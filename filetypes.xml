@@ -1,6 +1,6 @@
 <application>
   <component name="FileTypeManager" version="18">
-    <ignoreFiles list="*.build.error.log;*.build.log;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.rush;.svn;CVS;__pycache__;_svn;dist;node_modules;temp;vssver.scc;vssver2.scc" />
+    <ignoreFiles list="*.build.error.log;*.build.log;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.rush;.svn;CVS;__pycache__;_svn;dist;temp;vssver.scc;vssver2.scc" />
     <extensionMap>
       <mapping ext="scpt" type="PLAIN_TEXT" />
       <mapping ext="sdef" type="XML" />
