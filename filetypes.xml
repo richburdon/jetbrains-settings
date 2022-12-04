@@ -8,8 +8,7 @@
       <removed_mapping ext="permissionset" approved="true" type="XML" />
       <removed_mapping ext="profile" approved="true" type="XML" />
       <removed_mapping ext="scpt" approved="true" type="AppleScript file" />
-      <removed_mapping ext="yaml" approved="true" type="YAML" />
-      <removed_mapping ext="yml" approved="true" type="YAML" />
+      <removed_mapping ext="yml" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>

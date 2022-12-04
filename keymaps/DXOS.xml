@@ -54,6 +54,9 @@
   <action id="ExternalSystem.OpenConfig" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooserList.LevelUp" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
   <action id="MethodHierarchy" />
   <action id="MethodHierarchy.BaseOnThisMethod" />
   <action id="MoveEditorToOppositeTabGroup">
