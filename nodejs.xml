@@ -6,8 +6,6 @@
     <local-interpreter path="/opt/homebrew/bin/node">
       <version-cache version="18.11.0" last-modified="1665781387722" />
     </local-interpreter>
-    <local-interpreter path="/usr/local/bin/node">
-      <version-cache version="18.12.1" last-modified="1668476259616" />
-    </local-interpreter>
+    <local-interpreter path="/usr/local/bin/node" />
   </component>
 </application>

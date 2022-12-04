@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping ext="scpt" type="PLAIN_TEXT" />
       <mapping ext="sdef" type="XML" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="md" approved="true" type="XML" />
       <removed_mapping ext="permissionset" approved="true" type="XML" />
       <removed_mapping ext="profile" approved="true" type="XML" />
