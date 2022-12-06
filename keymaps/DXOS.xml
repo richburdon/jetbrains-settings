@@ -5,8 +5,11 @@
   <action id="CollapseRegion" />
   <action id="CollapseSelection" />
   <action id="CompareTwoFiles" />
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.SplitLine" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Documentation.EditSource" />
   <action id="DomCollectionControl.Edit" />
   <action id="DomElementsTreeView.GotoDomElementDeclarationAction" />
@@ -41,6 +44,7 @@
   <action id="EditorSearchSession.PrevOccurrence">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta end" />
     <keyboard-shortcut first-keystroke="end" />
@@ -53,6 +57,9 @@
   <action id="ExpandRegion" />
   <action id="ExternalSystem.OpenConfig" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.LightEditGotoOpenedFile">
+    <keyboard-shortcut first-keystroke="meta period" />
+  </action>
   <action id="FileChooserList.LevelUp" />
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="shift meta l" />
@@ -88,6 +95,8 @@
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
+  <action id="SplitChooser.Duplicate" />
+  <action id="Terminal.SmartCommandExecution.Run" />
   <action id="TypeScript.Restart.Service">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
@@ -100,6 +109,7 @@
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="Vcs.UpdateProject" />
+  <action id="ViewSource" />
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.JumpToSource" />
 </keymap>
